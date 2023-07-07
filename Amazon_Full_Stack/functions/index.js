@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({ origin: true }));
 app.use(express.json());
 
-app.get('/', (request, response) => response.status(200).send('h world'));
+app.get('/', (request, response) => response.status(200).send('hello world'));
 
 app.post('/payments/create', async (request, response) => {
   const total = request.query.total;
@@ -40,7 +40,7 @@ app.post('/payments/create', async (request, response) => {
     if (error) {
         console.log(error);
     } else {
-        console.log("Listening 1000");
+        console.log("Listening 10000");
     }
 })
   
