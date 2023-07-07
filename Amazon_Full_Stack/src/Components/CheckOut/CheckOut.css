@@ -1,0 +1,41 @@
+.checkout__ad {
+	width: 100%;
+	margin-bottom: 10px;
+     
+}
+.checkout__left{
+    border-right: 15px solid  lightgray;
+}
+
+.checkout {
+	display: flex;
+	padding: 20px;
+	background-color: white;
+	height: max-content;
+   
+}
+.checkout__title {
+	margin-right: 10px;
+	padding: 10px;
+	border-bottom: 1px solid lightgray;
+}
+
+.subTotal_checkOut{
+   border-top: 1px solid lightgray;
+  
+  
+}
+.subTotal_checkOut h2{
+ float: right;
+   margin-right: 25px;
+   font-size: 20px;
+}
+@media (max-width: 400px) {
+	.checkout {
+		padding-top: 80px;
+	
+}
+}
+.ONOFF{
+    display: none;
+}
